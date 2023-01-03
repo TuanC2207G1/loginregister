@@ -14,6 +14,16 @@ public class Account {
     public Account() {
     }
 
+    public Account(int id, String email, String pass, String firstName, String lastName, String phoneNumber, String address) {
+        this.id = id;
+        this.email = email;
+        this.pass = pass;
+        this.firstName = firstName;
+        LastName = lastName;
+        this.phoneNumber = phoneNumber;
+        this.address = address;
+    }
+
     public Account(int id, String email, String pass, String firstName, String lastName, String phoneNumber, String address, int role, int user_status) {
         this.id = id;
         this.email = email;

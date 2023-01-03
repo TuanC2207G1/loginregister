@@ -24,6 +24,9 @@
         <input value="Find Account" name="find">
         <button type="submit" class="btn btn-success">Summit</button>
     </from>
+        <c:if test="${sessionScope.account != null}">
+            <a href="/logout" class="btn btn-danger col-6">Logout</a>
+        </c:if>
     <table class="table">
         <thead>
         <tr>
@@ -57,9 +60,9 @@
                 <td>${p.address}</td>
                 <c:if test="${p.role==1}"><td style="color: green">Admin</td></c:if>
                 <c:if test="${p.role==2}"><td style="color: red">User</td> </c:if>
-                <c:if test="${p.user_status==1}"><td style="color: green">OK</td></c:if>
-                <c:if test="${p.user_status==0}"><td style="color: red">Block</td> </c:if>
-                <td><a href="/editp?id=${p.id}" class="btn btn-info" >Edit</a></td>
+                <c:if test="${p.user_status==1}"><td style="color: red"><a href="/changestatus?id=${p.id}" class="btn btn-danger" >Block</a></td></c:if>
+                <c:if test="${p.user_status==0}"><td style="color: green"><a href="/changestatus?id=${p.id}" class="btn btn-success" >Unblock</a></td> </c:if>
+                <td><a href="/edit?id=${p.id}" class="btn btn-info" >Edit</a></td>
                 <td><a href="/delete?id=${p.id}" class="btn btn-danger" >Delete</a></td>
             </tr>
         </c:forEach>

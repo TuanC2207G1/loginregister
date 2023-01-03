@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeae2d7-9af9-4a8a-98c5-7ccf496f5d6e" name="Changes" comment="" />
+    <list default="true" id="aaeae2d7-9af9-4a8a-98c5-7ccf496f5d6e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/ChangeStatusServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/EditServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/accountlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/accountlist.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +54,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -63,24 +79,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Acer\IdeaProjects\module3\src\main\webapp\view" />
@@ -202,7 +219,8 @@
       <workItem from="1672382826994" duration="5233000" />
       <workItem from="1672477673544" duration="22698000" />
       <workItem from="1672537103169" duration="1361000" />
-      <workItem from="1672709516470" duration="1775000" />
+      <workItem from="1672709516470" duration="2138000" />
+      <workItem from="1672713030142" duration="10551000" />
     </task>
     <servers />
   </component>
@@ -214,13 +232,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/service/AccountService.java</url>
-          <line>20</line>
+          <line>23</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/dao/AccountDao.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="17" />
+          <line>114</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

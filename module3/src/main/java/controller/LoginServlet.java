@@ -9,6 +9,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
@@ -35,9 +36,13 @@ public class LoginServlet extends HttpServlet {
         if (account != null && account.getRole() == 1) {
             List<Account> accountList = accountService.accountList();
             req.setAttribute("accounts", accountList);
+            HttpSession session = req.getSession();
+            session.setAttribute("account",account);
             RequestDispatcher dispatcher = req.getRequestDispatcher("/view/accountlist.jsp");
             dispatcher.forward(req, resp);
         } else if (account != null && account.getRole() == 2) {
+            HttpSession session = req.getSession();
+            session.setAttribute("account",account);
             RequestDispatcher dispatcher = req.getRequestDispatcher("/view/products.jsp");
             dispatcher.forward(req, resp);
         } else {
