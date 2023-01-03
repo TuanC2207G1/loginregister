@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeae2d7-9af9-4a8a-98c5-7ccf496f5d6e" name="Changes" comment="">
+    <list default="true" id="aaeae2d7-9af9-4a8a-98c5-7ccf496f5d6e" name="Changes" comment="login">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/controller/ChangeStatusServlet.java" afterDir="false" />
@@ -220,12 +220,35 @@
       <workItem from="1672477673544" duration="22698000" />
       <workItem from="1672537103169" duration="1361000" />
       <workItem from="1672709516470" duration="2138000" />
-      <workItem from="1672713030142" duration="10551000" />
+      <workItem from="1672713030142" duration="10843000" />
     </task>
+    <task id="LOCAL-00001" summary="login">
+      <created>1672728284049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672728284049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="login" />
+    <option name="LAST_COMMIT_MESSAGE" value="login" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
